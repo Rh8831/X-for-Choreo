@@ -2,18 +2,17 @@ FROM node:latest
 
 # 设置各变量
 ARG WSPATH= \
-    UUID=367a3c9d-d2a7-4c4a-a9bb-48255855cb44 \
+    UUID= \
     NEZHA_SERVER= \
     NEZHA_PORT= \
     NEZHA_KEY= \
     NEZHA_TLS= \
-    WEB_DOMAIN=cho.netir.cf \
-    ARGO_DOMAIN=cho.netir.cf \
+    WEB_DOMAIN= \
+    ARGO_DOMAIN= \
     SSH_DOMAIN= \
-    ARGO_AUTH=cho.netir.cf:
- {"AccountTag":"97856e3a9d56a08f24b864dfa7fd944c","TunnelSecret":"prcKbNxALOKmfm0xMKi6suAIEQPXo8ZhAxdqaKbLT2M=","TunnelID":"98d78843-3fad-443f-8648-cd2c7e925185" \
-    WEB_USERNAME=RH88 \
-    WEB_PASSWORD=Hooman@1388
+    ARGO_AUTH= \
+    WEB_USERNAME= \
+    WEB_PASSWORD=
 
 # 此处不用改，保留即可
 ENV NEZHA_SERVER=$NEZHA_SERVER \
